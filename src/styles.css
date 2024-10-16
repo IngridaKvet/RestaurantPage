@@ -1,0 +1,68 @@
+.itimFont{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
+  }
+
+/* Header */
+header{
+    background-color: #222222;
+    padding: 0 212px;
+    height: 152px;
+    display: flex;
+}
+
+.logoContainer{
+    display: flex;
+    color: #FAFAFA;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+}
+
+button{
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 0 18px;
+    color: #FAFAFA;
+    min-width: fit-content;
+}
+
+.lightWhiteBtn{
+    color: #585858;
+    background-color: #E0E0E0;
+}
+
+.pinkBtn{
+    background-color: #FF6C93;
+}
+
+.redBtn{
+    background-color: #FF366B;
+}
+
+/* Hero section */
+
+
+
+
+
+
+
+  
