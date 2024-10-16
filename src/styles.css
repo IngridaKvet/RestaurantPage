@@ -2,6 +2,12 @@
     font-family: "Itim", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.ubuntuFont {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
 body {
@@ -21,7 +27,8 @@ header{
 .logoContainer{
     display: flex;
     color: #FAFAFA;
-    font-size: 20px;
+    gap: 10px;
+   
     justify-content: center;
     align-items: center;
 }
@@ -39,7 +46,7 @@ button{
     height: 50px;
     border: none;
     font-size: 18px;
-    padding: 0 18px;
+    padding: 0 30px;
     color: #FAFAFA;
     min-width: fit-content;
 }
@@ -59,6 +66,78 @@ button{
 
 /* Hero section */
 
+#heroSection{
+    background-color: #2C2C2C;
+    display: flex;
+    padding: 168px 0;
+    justify-content: center;
+    color: #FAFAFA;
+    gap: 60px;
+}
+
+.headlineSizeL{
+    font-size: 40px;
+}
+
+.textSizeM{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FAFAFA;
+}
+
+.heroTextContainer{
+    width: 400px;
+}
+
+.purpleText{
+    color: #CF95D8;
+}
+
+/* Signature Dish section */
+#signatureDishesSection{
+    background-color: #222222;
+}
+
+
+.headlineSizeM{
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+
+
+/* Beginnings Section */
+#beginningsSection{
+    background-color: #2C2C2C;
+    display: flex;
+    padding: 168px 0;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAFA;
+    gap: 60px;
+}
+
+.redText{
+    color: #FF366B;
+}
+
+
+.purpleBtn{
+    background-color: #BA68C8;
+}
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    gap: 60px;
+
+}
 
 
 

@@ -8,13 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="itimFont">
-        <!--logo Name-->
         <div class="logoContainer">
-        <img src="img/Shrimp_Logo.svg"  width="85px">
-        <h1>Shrimpy</h1>
+            <img src="img/Shrimp_Logo.svg"  width="85px">
+            <h1>Shrimpy</h1>
         </div>
         <nav>
             <button class="lightWhiteBtn itimFont">About Us</button>
@@ -22,11 +24,41 @@
             <button class="redBtn itimFont">Reservations</button>
         </nav>
     </header>
-    <div id="content">
+    <main id="content">
 
-        <h2>It's not just food. It's an <span class="purpleText">experience</span></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui mi,  congue ac ornare rhoncus, sollicitudin.</p>
-        
-    </div>
+        <section id="heroSection">
+            <div class="heroTextContainer">
+                <h2 class="itimFont headlineSizeL">It's not just food. <br> It's an <span class="purpleText">experience</span></h2>
+                <p class="ubuntuFont textSizeM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui mi,  congue ac ornare rhoncus, sollicitudin.</p>
+                <button class="redBtn itimFont">Reserve Now</button>
+            </div>
+            <img src="img/heroIllustration.svg" alt="Shrimp bowl illustration">
+        </section>
+
+        <section id="signatureDishesSection">
+   
+                <h2 class="itimFont headline">Signature Dishes</h2>
+                
+
+        </section>
+
+        <section id="beginningsSection" class="darkerBackground">
+
+            <img src="img/cherryPieIllustration.svg" alt="Cherry pie illustration">            
+            <div class="heroTextContainer">
+                <h2 class="itimFont headlineSizeM">Our Beginnings</h2>
+                <p class="ubuntuFont textSizeM">Lorem ipsum dolor sit amet, consectetur <span class="redText">cherry apple pie</span> adipiscing elit. Morbi dui mi,  congue ac ornare rhoncus, sollicitudin.</p>
+                <button class="purpleBtn itimFont">Learn More</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logoContainer">
+            <img src="img/Shrimp_Logo.svg"  width="50px">
+            <h1 class="itimFont textSizeM">Shrimpy</h1>
+        </div>
+        <p class="itimFont textSizeM">Illustrations are designed by <a href="https://www.freepik.com">storyset</a></p>
+
+    </footer>
 </body>
 </html>
