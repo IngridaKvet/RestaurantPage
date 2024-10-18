@@ -100,12 +100,13 @@ button{
     justify-content: center;
     background-color: #222222;
     color: #FAFAFA;
+    padding-top: 50px;
 }
 
 .headlineSizeM{
     font-size: 30px;
     color: #FAFAFA;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .slider{
@@ -161,18 +162,51 @@ button{
     min-height: 50px;
 }
 
+.sliderContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    max-width: 940px; 
+    margin: auto;
+    padding-left: 40px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .arrowContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+
+
 
 
 
 
 /* Beginnings Section */
-#beginningsSection{
+.twoColLayout{
     display: flex;
     padding: 168px 0;
     justify-content: center;
     align-items: center;
     color: #FAFAFA;
-    gap: 60px;
+    gap: 120px;
 }
 
 .redText{
@@ -197,6 +231,7 @@ footer{
 
 }
 
+/* Reservations content */
 
 
 
