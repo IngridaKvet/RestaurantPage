@@ -10,12 +10,13 @@ import breakfastImg from "../img/breakfastIllustration.svg";
 import tofuImg from "../img/tofuIllustration.svg";
 import beginningsImg from "../img/cherryPieIllustration.svg";
 
-const main = document.getElementById('content');
+function createHomeSection() {
+    const homeSection = document.createElement('section');
 
-//Hero Section
+    //Hero Section
 const heroSection = document.createElement('section');
 heroSection.setAttribute('id', 'heroSection');
-main.appendChild(heroSection);
+homeSection.appendChild(heroSection);
 
 const textContainerH = document.createElement('div');
 textContainerH.setAttribute('class', 'textContainer');
@@ -52,7 +53,7 @@ heroSection.appendChild(heroIllustration);
 //Signature Dish Section
 const signatureDishesSection= document.createElement('section');
 signatureDishesSection.setAttribute('id', 'signatureDishesSection');
-main.appendChild(signatureDishesSection);
+homeSection.appendChild(signatureDishesSection);
 
 const signatureHeading = document.createElement('h2');
 signatureHeading.setAttribute('class', 'itimFont headlineSizeM');
@@ -235,7 +236,7 @@ tofuCard.appendChild(tofuBtn);
 const beginningsSection= document.createElement('section');
 beginningsSection.setAttribute('id', 'beginningsSection');
 beginningsSection.setAttribute('class', 'twoColLayout');
-main.appendChild(beginningsSection);
+homeSection.appendChild(beginningsSection);
 
 const beginningsIllustration = document.createElement("img");
 beginningsIllustration.src = beginningsImg;
@@ -266,6 +267,17 @@ const beginningsBtn =document.createElement('button');
 beginningsBtn.setAttribute('class', 'purpleBtn itimFont');
 beginningsBtn.textContent ='Learn More';
 textContainerB.appendChild(beginningsBtn);
+
+return homeSection
+}
+
+function loadHomeSection() {
+    const main = document.getElementById('content');
+    const homeSection = createHomeSection();
+    main.appendChild(homeSection);
+}
+  
+export {loadHomeSection}
 
 //Rewriten from HTML
 /*
