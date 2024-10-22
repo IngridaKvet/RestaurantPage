@@ -3,6 +3,8 @@ import reservationsImg from "../img/reservationsIllustration.svg";
 function createReservationsSection(){
     const reservationsSection = document.createElement('section');
     reservationsSection.setAttribute('class', 'twoColLayout');
+    reservationsSection.setAttribute('id', 'reservationsSection');
+
 
     const reservationsIllustration = document.createElement("img");
     reservationsIllustration.src = reservationsImg;

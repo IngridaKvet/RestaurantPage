@@ -3,6 +3,7 @@ import locationsImg from "../img/locationsIllustration.svg";
 function createLocationsSection() {
     const locationsSection = document.createElement('section');
     locationsSection.setAttribute('class', 'twoColLayout');
+    locationsSection.setAttribute('id', 'locationsSection');
 
     const locationsIllustration = document.createElement("img");
     locationsIllustration.src = locationsImg;

@@ -3,6 +3,7 @@ import aboutUsImg from "../img/aboutUsIllustration.svg";
 function createAboutUsSection() {
     const aboutSection = document.createElement('section');
     aboutSection.setAttribute('class', 'twoColLayout');
+    aboutSection.setAttribute('id', 'aboutSection');
    
     const aboutUsIllustration = document.createElement("img");
     aboutUsIllustration.src = aboutUsImg;
