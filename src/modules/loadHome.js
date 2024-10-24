@@ -268,7 +268,7 @@ function createHomeSection() {
     beginningsBtn.setAttribute('class', 'purpleBtn itimFont');
     beginningsBtn.textContent ='Learn More';
     textContainerB.appendChild(beginningsBtn);
-
+    
 return homeSection
 }
 

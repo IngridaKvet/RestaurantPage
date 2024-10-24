@@ -30,8 +30,7 @@ main{
 /* Header */
 header{
     background-color: #222222;
-    padding: 0 212px;
-    height: 152px;
+    padding: 5px 212px 10px  212px;
     display: flex;
 }
 
@@ -50,7 +49,8 @@ nav{
     align-items: center;
     gap: 24px;
     margin-left: auto;
-    height: 113px;
+
+
 }
 
 button{
@@ -97,7 +97,7 @@ button{
 }
 
 .textContainer{
-    width: 400px;
+    max-width: 400px;
 }
 
 .purpleText{
@@ -180,12 +180,13 @@ button{
     overflow: hidden;
     width: 100%; 
     max-width: 940px; 
-    margin: auto;
+
     padding-left: 40px;
   }
   
   .slider {
     display: flex;
+    
     transition: transform 0.5s ease-in-out;
   }
   
@@ -244,8 +245,80 @@ footer{
 
 }
 
-/* Reservations content */
+/* Responsivity */
 
+@media (max-width: 1286px){
+    header{
+        flex-direction: column;
+        padding: 0 0 30px 0; 
+    }
+    
+    nav{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #heroSection{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    #heroSection img{
+        max-width: 80%;
+        object-fit: contain;
+        margin: 0 10px;
+    }
+
+    .textContainer{
+        max-width: 600px;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .sliderContainer {
+        max-width: 592px; 
+        overflow-x: auto;
+      }
+      
+    img.arrow{
+        display: none;
+    }
+
+    .twoColLayout{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0;
+        justify-content: center;
+        align-items: center;
+        color: #FAFAFA;
+        gap: 60px;
+    }
+
+    .twoColLayout img{
+        max-width: 80%;
+        object-fit: contain;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    footer p{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 646px){
+    .sliderContainer {
+        max-width: 271px; 
+        overflow-x: auto;
+      }
+}
 
 
 
